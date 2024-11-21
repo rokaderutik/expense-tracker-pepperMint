@@ -2,7 +2,10 @@
     height: 80px;
     display: flex;
     align-items: center;
-    padding-left: 32px;
+    padding: 0 32px;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -10,12 +13,32 @@
     color: #fff;
 }
 
+.button {
+    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    height: 38px;
+    /* width: 168px; */
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 480px) {
     .title {
         font-size: 24px;
     }
 
+    .button {
+        font-size: 14px;
+    }
+
     .navbar {
-        height: 40px;
+        /* height: 40px; */
+        padding-top: 24px;
+        padding-bottom: 40px;
+        gap: 0;
     }
 }

@@ -9,14 +9,14 @@
     box-sizing: border-box;
 
     gap: 19px;
-    height: 180px;
-    width: 356px;
+    height: 100px;
+    width: 300px;
 }
 
 .title {
     font-size: 30px;
     font-weight: 400;
-    color: var(--color-white);
+    color: #fff;
     margin-top: 0px;
     margin-bottom: 0px;
     text-align: center;
@@ -32,48 +32,23 @@
     font-weight: 700;
 }
 
-.button {
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--color-white);
-    border: none;
-    border-radius: 15px;
-    height: 38px;
-    width: 168px;
-    cursor: pointer;
-}
-
-.income_button {
-    background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
-}
-
-.expense_button {
-    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
-}
-
 @media screen and (max-width: 1100px) {
     .card_body {
         gap: 16px;
-        height: 150px;
-        width: 300px;
+        height: 100px;
+        width: 250px;
     }
 
     .title {
         font-size: 24px;
-    }
-
-    .button {
-        font-size: 14px;
-        height: 32px;
-        width: 142px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .card_body {
         gap: 13px;
-        height: 120px;
-        width: 240px;
+        height: 80px;
+        width: 200px;
     }
 
     .title {

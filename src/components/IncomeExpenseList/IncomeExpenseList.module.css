@@ -1,0 +1,10 @@
+.transaction_wrapper {
+    display: flex;
+    margin: 8px 36px 16px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+
+    padding: 8px 14px 8px 22px;
+}
