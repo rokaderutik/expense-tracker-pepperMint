@@ -28,3 +28,9 @@
     padding: 8px 14px 8px 22px;
     overflow-y: auto;
 }
+
+@media screen and (max-width: 800px) {
+    .section_wrapper {
+        width: 100%;
+    }
+}
